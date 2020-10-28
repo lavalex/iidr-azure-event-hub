@@ -1,7 +1,7 @@
 # IBM InfoSphere Data Replication to Azure Event Hub
 
 
-**kafkacat** configuration:
+##**kafkacat** configuration:
 
 Configuration file:
 
@@ -17,7 +17,7 @@ To set the default configuration file:
 ```export KAFKACAT_CONFIG=<full path to config file>```
 
 
-**kafka-console-producer** and **kafka-console-consumer** configuration:
+##**kafka-console-producer** and **kafka-console-consumer** configuration:
 
 ```
 bootstrap.servers=<namespace>.servicebus.windows.net:9093
@@ -29,7 +29,7 @@ sasl.jaas.config=org.apache.kafka.common.security.plain.PlainLoginModule require
 Specify the configuration file using **--producer.config** or **--consumer.config** properties
 
 
-** IBM Change Data Capture ** configuration:
+##** IBM Change Data Capture ** configuration:
 
 1. Create **jaas.conf** file:
 
