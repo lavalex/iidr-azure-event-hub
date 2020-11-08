@@ -1,5 +1,6 @@
 # IBM InfoSphere Data Replication to Azure Event Hub
 
+Full video: https://www.youtube.com/watch?v=HWhq737A1Z8
 
 ## kafkacat configuration:
 
